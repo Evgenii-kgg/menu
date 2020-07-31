@@ -9,7 +9,9 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="./css/main.css">
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -39,5 +41,23 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-router-dom/4.2.2/react-router-dom.min.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script type="text/babel" src="./js/Menu.js"></script>
+  <script type="text/babel" src="./js/HomePage.js"></script>
+  <script type="text/babel" src="./js/DriftPage.js"></script>
+  <script type="text/babel" src="./js/TimeAttackPage.js"></script>
+  <script type="text/babel" src="./js/ForzaPage.js"></script>
+  <script type="text/babel" src="./js/App.js"></script>
+  <script type="text/babel">
+    const ReactRouter = window.ReactRouterDOM;
+    const Router = ReactRouter.HashRouter;
+    const Route = ReactRouter.Route;
+    const NavLink = ReactRouter.NavLink;
+    const Link = ReactRouter.Link;
+    const Switch = ReactRouter.Switch;
+  </script>
   </body>
 </html>
